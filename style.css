@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+.header-logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+.language {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.container {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 350px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.container .logo {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.offer {
+  color: red;
+  font-size: 14px;
+  text-align: right;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.container h1 {
+  font-size: 22px;
+  margin: 0 0 20px;
+  color: #003366;
+}
+.role-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.role-buttons button {
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  background: #f0f0f0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.role-buttons button.active {
+  background: #003366;
+  color: white;
+}
+.container input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.qr-login {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #ff9999;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
